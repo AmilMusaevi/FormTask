@@ -1,0 +1,134 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+
+ }
+.forms{
+    display: flex;
+}
+ p {
+     margin-top: 30px;
+     margin-bottom: 15px;
+
+ }
+
+ .CheckoutForm {
+    margin: 10px;
+     width: 340px;
+     height: 420px;
+     border: 10px solid rgba(255, 255, 0, 0.815);
+     box-shadow: 10px 10px rgba(41, 41, 236, 0.808);
+ }
+
+
+ .checkout-form{
+     margin: 30px;
+ }
+
+ .text_email {
+     display: inline-block;
+ }
+
+ #input {
+     border: 1px solid grey;
+     padding: 10px;
+     margin-top: 10px;
+     width: 250px;
+     border-radius: 5px;
+ }
+
+ .radio {
+     accent-color: black;
+ }
+
+ .type_radio {
+     margin-top: 10px;
+ }
+
+
+ /* the first form is over */
+
+ .SignupForm{
+    margin: 20px;
+    width: 270px;
+    height: 250px;
+    border: 10px solid rgba(255, 0, 0, 0.712);
+    box-shadow: 10px 10px rgba(0, 0, 255, 0.705);
+ }
+
+ .signup-form{
+    margin: 20px;
+ }
+
+ .sign{
+    margin-top: 15px;
+ }
+ .signup-input{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+ }
+ .signup-checkbox{
+ margin: 10px 5px;
+ }
+ .span_checkbox{
+   font-size: 13px;
+ }
+  /* the second form is over */
+ .AddressForm{
+    margin: 10px;
+    width: 300px;
+    height:600px;
+    border: 10px solid rgba(255, 255, 0, 0.815);
+    box-shadow: 10px 10px rgba(41, 41, 236, 0.808);
+ }
+ .address-form{
+    margin: 10px;
+ }
+ .required{
+    color:red
+ }
+ 
+/* .adress{
+    margin-top: 15px;
+} */
+.adress-input{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.TripForm{
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    border: 10px solid rgba(255, 0, 0, 0.712);
+    box-shadow: 10px 10px rgba(0, 0, 255, 0.705);
+}
+.trip-form{
+margin: 10px;
+}
+.trip_radio{
+    display: inline-block;
+    margin: 20px 10px;
+}
+.trip-input{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    margin:10px 0px;
+}
+.select_from{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    margin:10px 0px;
+}

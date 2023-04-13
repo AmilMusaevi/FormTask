@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="forms">
+
+
+        <div class="CheckoutForm">
+            <form class="checkout-form">
+                <label for="input" class="text_email">Email</label>
+                <input type="email" placeholder="Enter Text" id="input" />
+
+                <div class="type_radio">
+                    <p>Ship to</p>
+                    <input type="radio" id="radio" class="radio" />
+                    <label for="radio">221B Baker St, London, U.K.</label>
+                </div>
+                <div class="type_radio">
+                    <input type="radio" id="radio2" class="radio" />
+                    <label for="radio2">32 Windsor Gardens, London, U.K.</label>
+                </div>
+                <div class="type_radio">
+                    <input type="radio" id="radio3" class="radio" />
+                    <label for="radio3">17 Cherry Tree Lane, London, U.K.</label>
+                </div>
+
+                <div class="type_radio">
+                    <p>Delivery</p>
+                    <input type="radio" id="radio4" class="radio" />
+                    <label for="radio4">Standard Shipping</label>
+                </div>
+                <div class="type_radio">
+                    <input type="radio" id="radio5" class="radio" />
+                    <label for="radio5">2-Day Shipping</label>
+                </div>
+                <div class="type_radio">
+                    <input type="radio" id="radio6" class="radio" />
+                    <label for="radio6">Overnight Shipping</label>
+                </div>
+            </form>
+
+            <!-- /* the first form is over */ -->
+
+        </div>
+        <div class="SignupForm">
+            <form class="signup-form">
+                <div class=" sign"><input type="text" class="signup-input" placeholder="Name"></div>
+                <div class="sign"><input type="email" class="signup-input" placeholder="Email"></div>
+                <div class=" sign"><input type="password" class="signup-input" placeholder="Password"></div>
+                <div><input type="checkbox" class="signup-checkbox"><span class="span_checkbox">I would like to receive
+                        a monthly newsletter</span></div>
+            </form>
+        </div>
+        <!-- /* the second form is over */ -->
+        <div class="AddressForm">
+            <form class="address-form">
+                <div class=""><label for="name">First Name <span class="required">*</span> </label>
+                    <input type="text" class="adress-input" placeholder="Enter Text" id="name" required>
+                </div>
+                <div class="adress">
+                    <label for="name">Last Name<span class="required">*</span> </label>
+                    <input type="email" class="adress-input" placeholder="Enter Text">
+                </div>
+                <div class=" adress">
+                    <label for="name">Company</label>
+                    <input type="text" class="adress-input" placeholder="Enter Text">
+                </div>
+                <div class="adress">
+                    <label for="name">Address <span class="required">*</span> </label>
+                    <input type="email" class="adress-input" placeholder="Enter Text">
+                </div>
+                <div class=" adress">
+                    <label for="name">Appartment, suit, etc.</label>
+                    <input type="password" class="adress-input" placeholder="Enter Text">
+                </div>
+                <div class=" adress">
+                    <label for="name">City <span class="required">*</span> </label>
+                    <input type="text" class="adress-input" placeholder="Enter Text">
+                </div>
+                <div class=" adress">
+                    <label for="name">Country Region <span class="required">*</span> </label>
+                    <input type="text" class="adress-input" placeholder="Select Country">
+                </div>
+            </form>
+        </div>
+
+        <div class="TripForm">
+            <form class="trip-form">
+                <div class="trip_radio">
+                    <input type="radio" id="OneWay">
+                    <label for="OneWay">One way</label>
+                </div>
+                <div class="trip_radio">
+                    <input type="radio" id="RoundTrip">
+                    <label for="RoundTrip">Round trip</label>
+                </div>
+
+                <div>
+
+                    <label for="from">From</label>
+                    <select name="from" id="from" class="select_from"">
+                <option value="">Select Option</option>
+            </select>
+       
+            <label for=" To">To</label>
+                        <select name="from" id="from" class="select_from"">
+                <option value="">Select Option</option>
+            </select>
+
+            <label for=" Departure">Departure</label>
+                            <input type="date" id="Departure" class="trip-input">
+                            <label for="Return">Return</label>
+                            <input type="date" id="Return" class="trip-input">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
